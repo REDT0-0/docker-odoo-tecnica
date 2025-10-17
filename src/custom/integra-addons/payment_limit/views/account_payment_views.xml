@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_payment_form_inherit_payment_limit" model="ir.ui.view">
+        <field name="name">account.payment.form.payment.limit</field>
+        <field name="model">account.payment</field>
+        <field name="inherit_id" ref="account.view_account_payment_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//header" position="inside">
+                <button name="action_validate_by_finance" type="object" string="Validate by Finance" class="btn-primary" groups="payment_limit.group_finance" 
+                invisible="state != 'draft'"
+                />
+            </xpath>
+        </field>
+    </record>
+</odoo>

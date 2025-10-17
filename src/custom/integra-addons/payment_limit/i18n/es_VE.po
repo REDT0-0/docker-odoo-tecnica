@@ -1,0 +1,123 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* payment_limit
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0-20251016\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-17 20:48+0000\n"
+"PO-Revision-Date: 2025-10-17 20:48+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: payment_limit
+#: model:ir.model,name:payment_limit.model_res_company
+msgid "Companies"
+msgstr "Empresas"
+
+#. module: payment_limit
+#: model:ir.model,name:payment_limit.model_res_config_settings
+msgid "Config Settings"
+msgstr "Ajustes de configuración"
+
+#. module: payment_limit
+#: model:ir.model.fields,field_description:payment_limit.field_res_company__payment_limit_enabled
+#: model:ir.model.fields,field_description:payment_limit.field_res_config_settings__payment_limit_enabled
+msgid "Enable Payment Limit"
+msgstr "Habilitar limites de pago"
+
+#. module: payment_limit
+#: model_terms:ir.ui.view,arch_db:payment_limit.view_res_config_settings_payment_limit
+msgid "Enable or disable payment limit for the company."
+msgstr "Habilitar o deshabilitar el límite de pago para la empresa."
+
+#. module: payment_limit
+#: model:ir.model.fields,help:payment_limit.field_res_config_settings__payment_limit_enabled
+msgid "Enable or disable the payment limit feature for the current company."
+msgstr "Habilitar o deshabilitar la función de límite de pago para la empresa actual."
+
+#. module: payment_limit
+#: model:ir.model.fields,help:payment_limit.field_res_company__payment_limit_enabled
+msgid "Enable or disable the payment limit feature for this company."
+msgstr "Habilitar o deshabilitar la función de límite de pago para esta empresa."
+
+#. module: payment_limit
+#: model:res.groups,name:payment_limit.group_finance
+msgid "Finance"
+msgstr "Finanzas"
+
+#. module: payment_limit
+#. odoo-python
+#: code:addons/payment_limit/models/account_payment.py:0
+#, python-format
+msgid "Finance approval required"
+msgstr "Se requiere aprobación de Finanzas"
+
+#. module: payment_limit
+#: model:ir.model.fields,help:payment_limit.field_account_payment__validated_by_finance
+msgid ""
+"Indicates whether the payment has been validated by the finance department."
+msgstr "Indica si el pago ha sido validado por el departamento de finanzas."
+
+#. module: payment_limit
+#: model:ir.model.fields,help:payment_limit.field_account_payment__required_finance_approval
+msgid ""
+"Indicates whether the payment requires approval from the finance department."
+msgstr "Indica si el pago requiere aprobación del departamento de finanzas."
+
+#. module: payment_limit
+#: model:ir.model.fields,field_description:payment_limit.field_res_company__payment_limit_amount
+#: model:ir.model.fields,field_description:payment_limit.field_res_config_settings__payment_limit_amount
+msgid "Payment Limit Amount"
+msgstr ""
+
+#. module: payment_limit
+#. odoo-python
+#: code:addons/payment_limit/models/res_config_settings.py:0
+#, python-format
+msgid "Payment limit amount cannot be negative."
+msgstr ""
+
+#. module: payment_limit
+#: model:ir.model,name:payment_limit.model_account_payment
+msgid "Payments"
+msgstr "Pagos"
+
+#. module: payment_limit
+#: model:ir.model.fields,field_description:payment_limit.field_account_payment__required_finance_approval
+msgid "Requires Finance Approval"
+msgstr "Requiere aprobación de Finanzas"
+
+#. module: payment_limit
+#: model:ir.model.fields,help:payment_limit.field_res_config_settings__payment_limit_amount
+msgid "Set the maximum payment amount allowed for the current company."
+msgstr "Establecer el monto máximo de pago permitido para la empresa actual."
+
+#. module: payment_limit
+#: model:ir.model.fields,help:payment_limit.field_res_company__payment_limit_amount
+msgid "Set the maximum payment amount allowed for this company."
+msgstr "Establecer el monto máximo de pago permitido para esta empresa."
+
+#. module: payment_limit
+#. odoo-python
+#: code:addons/payment_limit/models/account_payment.py:0
+#, python-format
+msgid ""
+"The payment exceeds the limit and must be validated by Finance before it can"
+" be posted."
+msgstr "El pago excede el límite y debe ser validado por Finanzas antes de poder ser registrado."
+
+#. module: payment_limit
+#: model_terms:ir.ui.view,arch_db:payment_limit.view_payment_form_inherit_payment_limit
+msgid "Validate by Finance"
+msgstr "Validar por Finanzas"
+
+#. module: payment_limit
+#: model:ir.model.fields,field_description:payment_limit.field_account_payment__validated_by_finance
+msgid "Validated by Finance"
+msgstr "Validado por Finanzas"
